@@ -1,130 +1,27 @@
-<![CDATA[<div align="center">
+# C Programming Exam Answers
 
-# 📘 C Programming Exam Answer Sheet
+**প্রশ্ন ৩৮–৭৮ — সম্পূর্ণ উত্তরমালা**
 
-**অ্যালগরিদম · ফ্লোচার্ট · সি প্রোগ্রাম**
+> প্রতিটি প্রশ্নের জন্য: অ্যালগরিদম (বাংলায়) + Mermaid ফ্লোচার্ট + C99 প্রোগ্রাম
 
-[![Language](https://img.shields.io/badge/Language-C99-00599C?style=for-the-badge&logo=c&logoColor=white)](#-compilation)
-[![Questions](https://img.shields.io/badge/Questions-38--78-2ea44f?style=for-the-badge)](#-quick-reference)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](#)
-
-ডিপ্লোমা · এইচএসসি · বিশ্ববিদ্যালয় পরীক্ষার জন্য প্রস্তুতকৃত সম্পূর্ণ উত্তরমালা
-
-</div>
+👈 [README-তে ফিরে যান](README.md)
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [Program Blueprints](#-program-blueprints)
-- [Type 1 — Formula Based](#type-1--formula-based-সূত্রভিত্তিক)
-- [Type 2 — Decision Making](#type-2--decision-making-শর্তভিত্তিক)
-- [Type 3 — Loop + Summation](#type-3--loop--summation-লুপ--যোগফল)
-- [Type 4 — Loop + Display](#type-4--loop--display-লুপ--প্রদর্শন)
-- [Type 5 — Loop + Logic](#type-5--loop--logic-লুপ--লজিক)
-- [Type 6 — Array](#type-6--array-অ্যারে)
-- [Type 7 — Function](#type-7--function-ফাংশন)
-- [Type 8 — Character / ASCII](#type-8--character--ascii-ক্যারেক্টার)
-- [Quick Reference](#-quick-reference)
-- [Compilation](#-compilation)
+- [Type 1 — Formula Based](#type-1--formula-based)
+- [Type 2 — Decision Making](#type-2--decision-making)
+- [Type 3 — Loop + Summation](#type-3--loop--summation)
+- [Type 4 — Loop + Display](#type-4--loop--display)
+- [Type 5 — Loop + Logic](#type-5--loop--logic)
+- [Type 6 — Array](#type-6--array)
+- [Type 7 — Function](#type-7--function)
+- [Type 8 — Character / ASCII](#type-8--character--ascii)
 
 ---
 
-## 🧬 Program Blueprints
-
-> Each question follows one of the 8 blueprint patterns below. Expand any blueprint to see its structure.
-
-<details>
-<summary><b>🔹 Type 1 — Formula Based</b></summary>
-
-```
-Declare Variables → Input → Formula → Output
-```
-
-**Examples:** Area, Interest, Quadratic Formula, Fraction Addition
-
-</details>
-
-<details>
-<summary><b>🔹 Type 2 — Decision Making</b></summary>
-
-```
-Input → if / else → Output
-```
-
-**Examples:** Positive/Negative, Even/Odd, Largest, Smallest, Leap Year, Voter, Grade
-
-</details>
-
-<details>
-<summary><b>🔹 Type 3 — Loop + Summation</b></summary>
-
-```
-Input → Initialize → Loop → Update Sum → Output
-```
-
-**Examples:** Any series sum, Square series, Cube series, Power series
-
-</details>
-
-<details>
-<summary><b>🔹 Type 4 — Loop + Display</b></summary>
-
-```
-Input → Loop → Display
-```
-
-**Examples:** Print numbers, Multiplication table, Even/Odd numbers, A to Z
-
-</details>
-
-<details>
-<summary><b>🔹 Type 5 — Loop + Logic</b></summary>
-
-```
-Input → Loop → Logic → Output
-```
-
-**Examples:** Prime, GCD, LCM, Reverse Number, Factorial
-
-</details>
-
-<details>
-<summary><b>🔹 Type 6 — Array</b></summary>
-
-```
-Input Size → Input Array → Loop → Operation → Output
-```
-
-**Examples:** Array Sum, Search, Swap, Reverse
-
-</details>
-
-<details>
-<summary><b>🔹 Type 7 — Function</b></summary>
-
-```
-main() → Function Call → Processing → Return Result
-```
-
-**Examples:** String Length, Power Function
-
-</details>
-
-<details>
-<summary><b>🔹 Type 8 — Character / ASCII</b></summary>
-
-```
-Input Character → ASCII Logic → Output
-```
-
-**Examples:** Uppercase → Lowercase, ASCII Conversion
-
-</details>
-
----
-
-## Type 1 — Formula Based (সূত্রভিত্তিক)
+## Type 1 — Formula Based
 
 | # | Program |
 |:-:|:--------|
@@ -136,7 +33,7 @@ Input Character → ASCII Logic → Output
 <details>
 <summary><b>প্রশ্ন ৭৩ — দ্বিঘাত সমীকরণের মান নির্ণয়</b></summary>
 
-### Program: Find Roots of a Quadratic Equation (ax² + bx + c = 0)
+### Program: Find Roots of a Quadratic Equation
 
 #### অ্যালগরিদম
 
@@ -144,8 +41,8 @@ Input Character → ASCII Logic → Output
 ধাপ ২: `a`, `b`, `c`, `d`, `r1`, `r2` ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: `a`, `b`, `c` এর মান ইনপুট নাও।
 ধাপ ৪: `d = b*b - 4*a*c` নির্ণয় কর।
-ধাপ ৫: যদি `d > 0` হয়, তবে দুটি বাস্তব মূল `r1 = (-b+√d)/(2a)`, `r2 = (-b-√d)/(2a)` নির্ণয় কর।
-ধাপ ৬: যদি `d == 0` হয়, তবে একটি মূল `r1 = -b/(2a)` নির্ণয় কর।
+ধাপ ৫: যদি `d > 0` হয়, তবে দুটি বাস্তব মূল নির্ণয় কর।
+ধাপ ৬: যদি `d == 0` হয়, তবে একটি মূল নির্ণয় কর।
 ধাপ ৭: যদি `d < 0` হয়, তবে "বাস্তব মূল নেই" প্রদর্শন কর।
 ধাপ ৮: প্রোগ্রাম শেষ কর।
 
@@ -220,7 +117,7 @@ flowchart TD
     B --> C[/"Input n2, d2"/]
     C --> D["rn = n1*d2 + n2*d1"]
     D --> E["rd = d1*d2"]
-    E --> F[/"Print rn / rd"/]
+    E --> F[/"Print rn, rd"/]
     F --> G([End])
 ```
 
@@ -249,7 +146,7 @@ int main() {
 
 ---
 
-## Type 2 — Decision Making (শর্তভিত্তিক)
+## Type 2 — Decision Making
 
 | # | Program |
 |:-:|:--------|
@@ -315,7 +212,7 @@ int main() {
 <details>
 <summary><b>প্রশ্ন ৩৯ — শূন্য, ধনাত্মক নাকি ঋণাত্মক নির্ণয়</b></summary>
 
-### Program: Check if a Number is Zero, Positive or Negative
+### Program: Check Zero, Positive or Negative
 
 #### অ্যালগরিদম
 
@@ -370,7 +267,7 @@ int main() {
 <details>
 <summary><b>প্রশ্ন ৪০ — শূন্য, জোড় নাকি বিজোড় নির্ণয়</b></summary>
 
-### Program: Check if a Number is Zero, Even or Odd
+### Program: Check Zero, Even or Odd
 
 #### অ্যালগরিদম
 
@@ -599,7 +496,7 @@ int main() {
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `marks` ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: নম্বর ইনপুট নাও।
-ধাপ ৪: যদি `marks >= 80` → "A+"; `>= 70` → "A"; `>= 60` → "A-"; `>= 50` → "B"; `>= 40` → "C"; `>= 33` → "D"।
+ধাপ ৪: `marks >= 80` হলে "A+", `>= 70` হলে "A", `>= 60` হলে "A-", `>= 50` হলে "B", `>= 40` হলে "C", `>= 33` হলে "D"।
 ধাপ ৫: অন্যথায় "F (Fail)" প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
@@ -663,7 +560,7 @@ int main() {
 
 ---
 
-## Type 3 — Loop + Summation (লুপ + যোগফল)
+## Type 3 — Loop + Summation
 
 | # | Program |
 |:-:|:--------|
@@ -673,14 +570,14 @@ int main() {
 | ৫০ | 1²+2²+3²+...+N² |
 | ৫১ | 100²+95²+90²+...+10² |
 | ৫২ | 99²+88²+77²+...+11² |
-| ৫৩ | 1000+950+900+...+≥22 |
-| ৫৪ | 1·2+2·3+3·4+...+n(n+1) |
-| ৫৫ | 1¹+2²+3³+...+Nᴺ |
-| ৫৬ | 2²+4²+8²+... (×2 step) |
-| ৫৭ | 3²+9²+27²+... (×3 step) |
+| ৫৩ | 1000+950+900+...+50 |
+| ৫৪ | 1.2+2.3+3.4+...+n(n+1) |
+| ৫৫ | 1^1+2^2+3^3+...+N^N |
+| ৫৬ | 2²+4²+8²+... (x2 step) |
+| ৫৭ | 3²+9²+27²+... (x3 step) |
 | ৫৮ | 1³+2³+3³+...+N³ |
-| ৫৯ | 1+1/2²+1/3³+...+1/nⁿ |
-| ৬১ | 1×2+2×3+...+N×(N+1) |
+| ৫৯ | 1+1/2²+1/3³+...+1/n^n |
+| ৬১ | 1x2+2x3+...+Nx(N+1) |
 
 ---
 
@@ -736,7 +633,7 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৪৮ — 1+3+5+...+n (বিজোড় সংখ্যার যোগফল)</b></summary>
+<summary><b>প্রশ্ন ৪৮ — 1+3+5+...+n বিজোড় সংখ্যার যোগফল</b></summary>
 
 ### Program: Sum of Odd Numbers 1+3+5+...+n
 
@@ -787,7 +684,7 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৪৯ — 2+4+6+...+n (জোড় সংখ্যার যোগফল)</b></summary>
+<summary><b>প্রশ্ন ৪৯ — 2+4+6+...+n জোড় সংখ্যার যোগফল</b></summary>
 
 ### Program: Sum of Even Numbers 2+4+6+...+n
 
@@ -840,7 +737,7 @@ int main() {
 <details>
 <summary><b>প্রশ্ন ৫০ — 1²+2²+3²+...+N² ধারার যোগফল</b></summary>
 
-### Program: Sum of Squares 1²+2²+3²+...+N²
+### Program: Sum of Squares
 
 #### অ্যালগরিদম
 
@@ -891,7 +788,7 @@ int main() {
 <details>
 <summary><b>প্রশ্ন ৫১ — 100²+95²+90²+...+10²</b></summary>
 
-### Program: Sum of Series 100²+95²+90²+...+10²
+### Program: Sum of Series (100 to 10, step -5, squared)
 
 #### অ্যালগরিদম
 
@@ -938,7 +835,7 @@ int main() {
 <details>
 <summary><b>প্রশ্ন ৫২ — 99²+88²+77²+...+11²</b></summary>
 
-### Program: Sum of Series 99²+88²+77²+...+11² (step -11)
+### Program: Sum of Series (99 to 11, step -11, squared)
 
 #### অ্যালগরিদম
 
@@ -983,9 +880,9 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৫৩ — 1000+950+900+...+≥22</b></summary>
+<summary><b>প্রশ্ন ৫৩ — 1000+950+900+...+50</b></summary>
 
-### Program: Sum of Series 1000+950+900+... (step -50, down to ≥ 22)
+### Program: Sum of Series (1000 to 50, step -50)
 
 #### অ্যালগরিদম
 
@@ -1030,9 +927,9 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৫৪ — 1·2 + 2·3 + 3·4 + ... + n(n+1)</b></summary>
+<summary><b>প্রশ্ন ৫৪ — 1.2 + 2.3 + 3.4 + ... + n(n+1)</b></summary>
 
-### Program: Sum of Series i × (i+1)
+### Program: Sum of Series i x (i+1)
 
 #### অ্যালগরিদম
 
@@ -1081,9 +978,9 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৫৫ — 1¹+2²+3³+...+Nᴺ</b></summary>
+<summary><b>প্রশ্ন ৫৫ — 1^1 + 2^2 + 3^3 + ... + N^N</b></summary>
 
-### Program: Sum of Series iⁱ
+### Program: Sum of Series i^i
 
 #### অ্যালগরিদম
 
@@ -1134,7 +1031,7 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৫৬ — 2²+4²+8²+... (ভিত্তি ×2 করে বৃদ্ধি)</b></summary>
+<summary><b>প্রশ্ন ৫৬ — 2²+4²+8²+... (x2 step, squared)</b></summary>
 
 ### Program: Sum of Squares of Powers of 2
 
@@ -1186,7 +1083,7 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৫৭ — 3²+9²+27²+... (ভিত্তি ×3 করে বৃদ্ধি)</b></summary>
+<summary><b>প্রশ্ন ৫৭ — 3²+9²+27²+... (x3 step, squared)</b></summary>
 
 ### Program: Sum of Squares of Powers of 3
 
@@ -1240,7 +1137,7 @@ int main() {
 <details>
 <summary><b>প্রশ্ন ৫৮ — 1³+2³+3³+...+N³ ধারার যোগফল</b></summary>
 
-### Program: Sum of Cubes 1³+2³+3³+...+N³
+### Program: Sum of Cubes
 
 #### অ্যালগরিদম
 
@@ -1289,9 +1186,9 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৫৯ — 1 + 1/2² + 1/3³ + ... + 1/nⁿ</b></summary>
+<summary><b>প্রশ্ন ৫৯ — 1 + 1/2² + 1/3³ + ... + 1/n^n</b></summary>
 
-### Program: Sum of Series 1 + 1/2² + 1/3³ + ... + 1/nⁿ
+### Program: Sum of Reciprocal Powers
 
 #### অ্যালগরিদম
 
@@ -1342,9 +1239,9 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৬১ — 1×2 + 2×3 + 3×4 + ... + N×(N+1)</b></summary>
+<summary><b>প্রশ্ন ৬১ — 1x2 + 2x3 + 3x4 + ... + Nx(N+1)</b></summary>
 
-### Program: Sum of Series i × (i+1)
+### Program: Sum of Series i x (i+1)
 
 #### অ্যালগরিদম
 
@@ -1392,11 +1289,11 @@ int main() {
 
 ---
 
-## Type 4 — Loop + Display (লুপ + প্রদর্শন)
+## Type 4 — Loop + Display
 
 | # | Program |
 |:-:|:--------|
-| ৬২ | জোড় ও বিজোড় সংখ্যা প্রদর্শন (1–100) |
+| ৬২ | জোড় ও বিজোড় প্রদর্শন (1-100) |
 | ৬৩ | 1, 2, 3, ..., n ধারা প্রদর্শন |
 | ৬৪ | নামতা (Multiplication Table) |
 | ৭৫ | A থেকে Z প্রদর্শন |
@@ -1404,9 +1301,9 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৬২ — ১ থেকে ১০০ এর মধ্যে জোড় ও বিজোড় সংখ্যা প্রদর্শন</b></summary>
+<summary><b>প্রশ্ন ৬২ — ১ থেকে ১০০ এর মধ্যে জোড় ও বিজোড় প্রদর্শন</b></summary>
 
-### Program: Display Even and Odd Numbers from 1 to 100
+### Program: Display Even and Odd Numbers 1 to 100
 
 #### অ্যালগরিদম
 
@@ -1422,12 +1319,12 @@ int main() {
 flowchart TD
     A([Start]) --> B["i = 2"]
     B --> C{"i <= 100?"}
-    C -- Yes --> D[/"Print i (Even)"/]
+    C -- Yes --> D[/"Print i as Even"/]
     D --> E["i = i + 2"]
     E --> C
     C -- No --> F["i = 1"]
     F --> G{"i <= 100?"}
-    G -- Yes --> H[/"Print i (Odd)"/]
+    G -- Yes --> H[/"Print i as Odd"/]
     H --> I["i = i + 2"]
     I --> G
     G -- No --> J([End])
@@ -1509,7 +1406,7 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৬৪ — যেকোনো সংখ্যার নামতা (Multiplication Table)</b></summary>
+<summary><b>প্রশ্ন ৬৪ — যেকোনো সংখ্যার নামতা</b></summary>
 
 ### Program: Print Multiplication Table
 
@@ -1518,7 +1415,7 @@ int main() {
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `num`, `i` ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: সংখ্যা ইনপুট নাও।
-ধাপ ৪: `i=1` থেকে `10` পর্যন্ত লুপ চালাও এবং `num × i` প্রদর্শন কর।
+ধাপ ৪: `i=1` থেকে `10` পর্যন্ত লুপ চালাও এবং `num x i` প্রদর্শন কর।
 ধাপ ৫: প্রোগ্রাম শেষ কর।
 
 #### ফ্লোচার্ট
@@ -1571,8 +1468,8 @@ int main() {
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B["ch = 'A'"]
-    B --> C{"ch <= 'Z'?"}
+    A([Start]) --> B["ch = A"]
+    B --> C{"ch <= Z?"}
     C -- Yes --> D[/"Print ch"/]
     D --> E["ch = ch + 1"]
     E --> C
@@ -1600,7 +1497,7 @@ int main() {
 
 ---
 
-## Type 5 — Loop + Logic (লুপ + লজিক)
+## Type 5 — Loop + Logic
 
 | # | Program |
 |:-:|:--------|
@@ -1671,7 +1568,7 @@ int main() {
 <details>
 <summary><b>প্রশ্ন ৪৫ — গ.সা.গু (GCD/HCF) নির্ণয়</b></summary>
 
-### Program: Find GCD of Two Numbers (Euclidean Algorithm)
+### Program: Find GCD (Euclidean Algorithm)
 
 #### অ্যালগরিদম
 
@@ -1733,7 +1630,7 @@ int main() {
 ধাপ ২: `n`, `i`, `flag=0` ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: সংখ্যা ইনপুট নাও।
 ধাপ ৪: `i=2` থেকে `n/2` পর্যন্ত লুপ চালাও; যদি `n % i == 0` হয়, তবে `flag=1` করে লুপ ভাঙ্গো।
-ধাপ ৫: যদি `flag == 0` এবং `n > 1` হয়, তবে "Prime" প্রদর্শন কর, অন্যথায় "Not Prime"।
+ধাপ ৫: যদি `flag == 0` এবং `n > 1` হয়, তবে "Prime", অন্যথায় "Not Prime"।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
 #### ফ্লোচার্ট
@@ -1838,7 +1735,7 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৭০ — কোনো সংখ্যার ঘাত নির্ণয় (লুপ ব্যবহার করে)</b></summary>
+<summary><b>প্রশ্ন ৭০ — কোনো সংখ্যার ঘাত নির্ণয় (লুপ)</b></summary>
 
 ### Program: Calculate Power Using Loop
 
@@ -2002,7 +1899,7 @@ int main() {
 <details>
 <summary><b>প্রশ্ন ৭৬ — কোনো সংখ্যার পাওয়ার নির্ণয় (pow ফাংশন)</b></summary>
 
-### Program: Calculate Power Using pow() Function
+### Program: Calculate Power Using pow()
 
 #### অ্যালগরিদম
 
@@ -2046,7 +1943,7 @@ int main() {
 
 ---
 
-## Type 6 — Array (অ্যারে)
+## Type 6 — Array
 
 | # | Program |
 |:-:|:--------|
@@ -2198,7 +2095,7 @@ flowchart TD
     C --> D{"i < n?"}
     D -- Yes --> E{"arr[i] == key?"}
     E -- Yes --> F["found = 1"]
-    F --> G[/"Print: Found at position i"/]
+    F --> G[/"Print: Found at i"/]
     E -- No --> H["i = i + 1"]
     H --> D
     D -- No --> I{"found == 0?"}
@@ -2246,7 +2143,7 @@ int main() {
 ---
 
 <details>
-<summary><b>প্রশ্ন ৬৮ — অ্যারের সংখ্যাগুলো অদলবদল (Reverse Array)</b></summary>
+<summary><b>প্রশ্ন ৬৮ — অ্যারের সংখ্যাগুলো অদলবদল (Reverse)</b></summary>
 
 ### Program: Reverse an Array
 
@@ -2307,7 +2204,7 @@ int main() {
 
 ---
 
-## Type 7 — Function (ফাংশন)
+## Type 7 — Function
 
 | # | Program |
 |:-:|:--------|
@@ -2372,7 +2269,7 @@ int main() {
 
 ---
 
-## Type 8 — Character / ASCII (ক্যারেক্টার)
+## Type 8 — Character / ASCII
 
 | # | Program |
 |:-:|:--------|
@@ -2399,7 +2296,7 @@ int main() {
 ```mermaid
 flowchart TD
     A([Start]) --> B[/"Input ch"/]
-    B --> C{"ch >= 'A' AND ch <= 'Z'?"}
+    B --> C{"ch >= A AND ch <= Z?"}
     C -- Yes --> D["ch = ch + 32"]
     C -- No --> E["ch unchanged"]
     D --> F[/"Print ch"/]
@@ -2430,69 +2327,4 @@ int main() {
 
 ---
 
-## 📊 Quick Reference
-
-| # | Program | Type | Key Construct |
-|:-:|:--------|:----:|:-------------|
-| ৩৮ | Voter Eligibility | 2 | `if (age >= 18)` |
-| ৩৯ | Positive / Negative / Zero | 2 | `if-else if-else` |
-| ৪০ | Zero / Even / Odd | 2 | `num % 2` |
-| ৪১ | Largest of Three | 2 | `if-else if-else` |
-| ৪২ | Smallest of Three | 2 | `if-else if-else` |
-| ৪৩ | Leap Year | 2 | `% 400, % 100, % 4` |
-| ৪৪ | LCM | 5 | `while` loop |
-| ৪৫ | GCD | 5 | Euclidean `while` |
-| ৪৬ | Prime Check | 5 | `for` + flag |
-| ৪৭ | Sum 1+2+…+n | 3 | `for` + `sum` |
-| ৪৮ | Sum of Odds | 3 | `i += 2` |
-| ৪৯ | Sum of Evens | 3 | `i += 2` |
-| ৫০ | Sum of Squares | 3 | `i * i` |
-| ৫১ | 100²+95²+…+10² | 3 | `i -= 5` |
-| ৫২ | 99²+88²+…+11² | 3 | `i -= 11` |
-| ৫৩ | 1000+950+…+≥22 | 3 | `i -= 50` |
-| ৫৪ | i×(i+1) series | 3 | `i*(i+1)` |
-| ৫৫ | iⁱ series | 3 | `pow(i, i)` |
-| ৫৬ | 2²+4²+8²+… | 3 | `i *= 2` |
-| ৫৭ | 3²+9²+27²+… | 3 | `i *= 3` |
-| ৫৮ | Sum of Cubes | 3 | `i*i*i` |
-| ৫৯ | 1+1/2²+1/3³+… | 3 | `1.0/pow(i,i)` |
-| ৬০ | Factorial | 5 | `fact *= i` |
-| ৬১ | i×(i+1) series | 3 | `i*(i+1)` |
-| ৬২ | Even/Odd 1–100 | 4 | two `for` loops |
-| ৬৩ | Display 1 to n | 4 | `for` print |
-| ৬৪ | Multiplication Table | 4 | `num * i` |
-| ৬৫ | Array Sum | 6 | `arr[]` + `for` |
-| ৬৬ | Array Swap | 6 | `temp` swap |
-| ৬৭ | Array Search | 6 | Linear search |
-| ৬৮ | Reverse Array | 6 | Two-pointer swap |
-| ৬৯ | String Length (func) | 7 | Custom function |
-| ৭০ | Power (loop) | 5 | `result *= base` |
-| ৭১ | Reverse Integer | 5 | `% 10`, `/ 10` |
-| ৭২ | Upper → Lower | 8 | `ch + 32` |
-| ৭৩ | Quadratic Equation | 1 | `sqrt`, discriminant |
-| ৭৪ | Reverse 4-digit | 5 | `% 10`, `/ 10` |
-| ৭৫ | A to Z | 4 | `char` loop |
-| ৭৬ | Power (pow) | 5 | `pow()` |
-| ৭৭ | Grade from Marks | 2 | `if-else if` chain |
-| ৭৮ | Fraction Addition | 1 | Cross-multiply |
-
----
-
-## 🛠️ Compilation
-
-All programs use **C99 standard**. Compile with:
-
-```bash
-gcc -std=c99 -lm program.c -o program
-```
-
-> The `-lm` flag links the math library, required for programs using `math.h`.
-
----
-
-<div align="center">
-
-**Made with ❤️ for C Programming Exam Preparation**
-
-</div>
-]]>
+👈 [README-তে ফিরে যান](README.md)
