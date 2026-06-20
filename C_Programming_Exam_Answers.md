@@ -2,15 +2,13 @@
 
 # 📘 C Programming Exam Answer Sheet
 
-### অ্যালগরিদম · ফ্লোচার্ট · সি প্রোগ্রাম
+**অ্যালগরিদম · ফ্লোচার্ট · সি প্রোগ্রাম**
 
-[![C](https://img.shields.io/badge/Language-C99-blue?style=for-the-badge&logo=c&logoColor=white)](#)
-[![Questions](https://img.shields.io/badge/Questions-38--78-green?style=for-the-badge)](#)
-[![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)](#)
+[![Language](https://img.shields.io/badge/Language-C99-00599C?style=for-the-badge&logo=c&logoColor=white)](#-compilation)
+[![Questions](https://img.shields.io/badge/Questions-38--78-2ea44f?style=for-the-badge)](#-quick-reference)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](#)
 
----
-
-> **ডিপ্লোমা / এইচএসসি / বিশ্ববিদ্যালয় পরীক্ষার জন্য প্রস্তুতকৃত সম্পূর্ণ উত্তরমালা**
+ডিপ্লোমা · এইচএসসি · বিশ্ববিদ্যালয় পরীক্ষার জন্য প্রস্তুতকৃত সম্পূর্ণ উত্তরমালা
 
 </div>
 
@@ -18,144 +16,106 @@
 
 ## 📑 Table of Contents
 
-| Blueprint | Type | Questions |
-|:---|:---|:---|
-| [Type 1 – Formula Based](#type-1--formula-based) | সূত্রভিত্তিক | ৭৩, ৭৮ |
-| [Type 2 – Decision Making](#type-2--decision-making) | শর্তভিত্তিক | ৩৮, ৩৯, ৪০, ৪১, ৪২, ৪৩, ৭৭ |
-| [Type 3 – Loop + Summation](#type-3--loop--summation) | লুপ + যোগফল | ৪৭, ৪৮, ৪৯, ৫০, ৫১, ৫২, ৫৩, ৫৪, ৫৫, ৫৬, ৫৭, ৫৮, ৫৯, ৬১ |
-| [Type 4 – Loop + Display](#type-4--loop--display) | লুপ + প্রদর্শন | ৬২, ৬৩, ৬৪, ৭৫ |
-| [Type 5 – Loop + Logic](#type-5--loop--logic) | লুপ + লজিক | ৪৪, ৪৫, ৪৬, ৬০, ৭০, ৭১, ৭৪, ৭৬ |
-| [Type 6 – Array](#type-6--array) | অ্যারে | ৬৫, ৬৬, ৬৭, ৬৮ |
-| [Type 7 – Function](#type-7--function) | ফাংশন | ৬৯ |
-| [Type 8 – Character / ASCII](#type-8--character--ascii) | ক্যারেক্টার | ৭২ |
+- [Program Blueprints](#-program-blueprints)
+- [Type 1 — Formula Based](#type-1--formula-based-সূত্রভিত্তিক)
+- [Type 2 — Decision Making](#type-2--decision-making-শর্তভিত্তিক)
+- [Type 3 — Loop + Summation](#type-3--loop--summation-লুপ--যোগফল)
+- [Type 4 — Loop + Display](#type-4--loop--display-লুপ--প্রদর্শন)
+- [Type 5 — Loop + Logic](#type-5--loop--logic-লুপ--লজিক)
+- [Type 6 — Array](#type-6--array-অ্যারে)
+- [Type 7 — Function](#type-7--function-ফাংশন)
+- [Type 8 — Character / ASCII](#type-8--character--ascii-ক্যারেক্টার)
+- [Quick Reference](#-quick-reference)
+- [Compilation](#-compilation)
 
 ---
 
 ## 🧬 Program Blueprints
 
-<details>
-<summary><b>Click to expand all blueprints</b></summary>
+> Each question follows one of the 8 blueprint patterns below. Expand any blueprint to see its structure.
 
-### 🔹 Type 1 – Formula Based
+<details>
+<summary><b>🔹 Type 1 — Formula Based</b></summary>
 
 ```
-Declare Variables
-      ↓
-    Input
-      ↓
-   Formula
-      ↓
-   Output
+Declare Variables → Input → Formula → Output
 ```
 
 **Examples:** Area, Interest, Quadratic Formula, Fraction Addition
 
----
+</details>
 
-### 🔹 Type 2 – Decision Making
+<details>
+<summary><b>🔹 Type 2 — Decision Making</b></summary>
 
 ```
-    Input
-      ↓
-  if / else
-      ↓
-   Output
+Input → if / else → Output
 ```
 
 **Examples:** Positive/Negative, Even/Odd, Largest, Smallest, Leap Year, Voter, Grade
 
----
+</details>
 
-### 🔹 Type 3 – Loop + Summation
+<details>
+<summary><b>🔹 Type 3 — Loop + Summation</b></summary>
 
 ```
-    Input
-      ↓
-  Initialize
-      ↓
-    Loop
-      ↓
- Update Sum
-      ↓
-   Output
+Input → Initialize → Loop → Update Sum → Output
 ```
 
 **Examples:** Any series sum, Square series, Cube series, Power series
 
----
+</details>
 
-### 🔹 Type 4 – Loop + Display
+<details>
+<summary><b>🔹 Type 4 — Loop + Display</b></summary>
 
 ```
-    Input
-      ↓
-    Loop
-      ↓
-   Display
+Input → Loop → Display
 ```
 
 **Examples:** Print numbers, Multiplication table, Even/Odd numbers, A to Z
 
----
+</details>
 
-### 🔹 Type 5 – Loop + Logic
+<details>
+<summary><b>🔹 Type 5 — Loop + Logic</b></summary>
 
 ```
-    Input
-      ↓
-    Loop
-      ↓
-   Logic
-      ↓
-   Output
+Input → Loop → Logic → Output
 ```
 
 **Examples:** Prime, GCD, LCM, Reverse Number, Factorial
 
----
+</details>
 
-### 🔹 Type 6 – Array
+<details>
+<summary><b>🔹 Type 6 — Array</b></summary>
 
 ```
- Input Size
-      ↓
- Input Array
-      ↓
-    Loop
-      ↓
- Operation
-      ↓
-   Output
+Input Size → Input Array → Loop → Operation → Output
 ```
 
 **Examples:** Array Sum, Search, Swap, Reverse
 
----
+</details>
 
-### 🔹 Type 7 – Function
+<details>
+<summary><b>🔹 Type 7 — Function</b></summary>
 
 ```
-   main()
-      ↓
-Function Call
-      ↓
- Processing
-      ↓
-Return Result
+main() → Function Call → Processing → Return Result
 ```
 
 **Examples:** String Length, Power Function
 
----
+</details>
 
-### 🔹 Type 8 – Character / ASCII
+<details>
+<summary><b>🔹 Type 8 — Character / ASCII</b></summary>
 
 ```
-Input Character
-      ↓
- ASCII Logic
-      ↓
-   Output
+Input Character → ASCII Logic → Output
 ```
 
 **Examples:** Uppercase → Lowercase, ASCII Conversion
@@ -164,17 +124,21 @@ Input Character
 
 ---
 
+## Type 1 — Formula Based (সূত্রভিত্তিক)
+
+| # | Program |
+|:-:|:--------|
+| ৭৩ | দ্বিঘাত সমীকরণের মান নির্ণয় |
+| ৭৮ | ভগ্নাংশ সংখ্যার যোগফল |
+
 ---
 
-# Type 1 – Formula Based
+<details>
+<summary><b>প্রশ্ন ৭৩ — দ্বিঘাত সমীকরণের মান নির্ণয়</b></summary>
 
----
+### Program: Find Roots of a Quadratic Equation (ax² + bx + c = 0)
 
-## প্রশ্ন ৭৩ — দ্বিঘাত সমীকরণের মান নির্ণয়
-
-**Program:** Find Roots of a Quadratic Equation (ax² + bx + c = 0)
-
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `a`, `b`, `c`, `d`, `r1`, `r2` ভেরিয়েবল ঘোষণা কর।
@@ -185,41 +149,23 @@ Input Character
 ধাপ ৭: যদি `d < 0` হয়, তবে "বাস্তব মূল নেই" প্রদর্শন কর।
 ধাপ ৮: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌─────────────┐
-    │ Input a,b,c │
-    └──────┬──────┘
-           ▼
-    ┌─────────────┐
-    │d=b²-4ac     │
-    └──────┬──────┘
-           ▼
-      ┌─────────┐     Yes    ┌────────────────┐
-      │ d > 0 ? ├───────────►│ Two real roots │
-      └────┬────┘            └────────────────┘
-           │ No
-           ▼
-      ┌─────────┐     Yes    ┌────────────────┐
-      │ d == 0 ?├───────────►│ One real root   │
-      └────┬────┘            └────────────────┘
-           │ No
-           ▼
-    ┌──────────────┐
-    │ No real root │
-    └──────┬───────┘
-           ▼
-       ┌───────┐
-       │  End  │
-       └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input a, b, c"/]
+    B --> C["d = b*b - 4*a*c"]
+    C --> D{"d > 0?"}
+    D -- Yes --> E[/"Print two real roots"/]
+    D -- No --> F{"d == 0?"}
+    F -- Yes --> G[/"Print one real root"/]
+    F -- No --> H[/"Print: No real roots"/]
+    E --> I([End])
+    G --> I
+    H --> I
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -247,48 +193,38 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৭৮ — ভগ্নাংশ সংখ্যার যোগফল নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৭৮ — ভগ্নাংশ সংখ্যার যোগফল নির্ণয়</b></summary>
 
-**Program:** Find Sum of Two Fractions
+### Program: Find Sum of Two Fractions
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n1`, `d1`, `n2`, `d2`, `rn`, `rd` ভেরিয়েবল ঘোষণা কর।
-ধাপ ৩: প্রথম ভগ্নাংশের লব (`n1`) ও হর (`d1`) ইনপুট নাও।
-ধাপ ৪: দ্বিতীয় ভগ্নাংশের লব (`n2`) ও হর (`d2`) ইনপুট নাও।
+ধাপ ৩: প্রথম ভগ্নাংশের লব ও হর ইনপুট নাও।
+ধাপ ৪: দ্বিতীয় ভগ্নাংশের লব ও হর ইনপুট নাও।
 ধাপ ৫: `rn = n1*d2 + n2*d1` এবং `rd = d1*d2` হিসাব কর।
 ধাপ ৬: ফলাফল `rn/rd` প্রদর্শন কর।
 ধাপ ৭: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-  ┌───────────────────┐
-  │ Input n1,d1,n2,d2 │
-  └─────────┬─────────┘
-            ▼
-  ┌───────────────────────┐
-  │ rn = n1*d2 + n2*d1    │
-  │ rd = d1*d2            │
-  └─────────┬─────────────┘
-            ▼
-  ┌───────────────────┐
-  │ Print rn / rd     │
-  └─────────┬─────────┘
-            ▼
-        ┌───────┐
-        │  End  │
-        └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n1, d1"/]
+    B --> C[/"Input n2, d2"/]
+    C --> D["rn = n1*d2 + n2*d1"]
+    D --> E["rd = d1*d2"]
+    E --> F[/"Print rn / rd"/]
+    F --> G([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -309,19 +245,30 @@ int main() {
 }
 ```
 
----
+</details>
 
 ---
 
-# Type 2 – Decision Making
+## Type 2 — Decision Making (শর্তভিত্তিক)
+
+| # | Program |
+|:-:|:--------|
+| ৩৮ | ভোটার নির্ণয় |
+| ৩৯ | শূন্য / ধনাত্মক / ঋণাত্মক |
+| ৪০ | শূন্য / জোড় / বিজোড় |
+| ৪১ | তিনটি সংখ্যার মধ্যে বড় |
+| ৪২ | তিনটি সংখ্যার মধ্যে ছোট |
+| ৪৩ | অধিবর্ষ নির্ণয় |
+| ৭৭ | গ্রেড নির্ণয় |
 
 ---
 
-## প্রশ্ন ৩৮ — ভোটার নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৩৮ — ভোটার নির্ণয়</b></summary>
 
-**Program:** Determine Voter Eligibility
+### Program: Determine Voter Eligibility
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `age` ভেরিয়েবল ঘোষণা কর।
@@ -330,34 +277,19 @@ int main() {
 ধাপ ৫: অন্যথায় "ভোটার নয়" প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input age │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐
-      │age >= 18?│
-      └──┬───┬───┘
-     Yes │   │ No
-         ▼   ▼
-  ┌────────┐ ┌──────────┐
-  │ Voter  │ │ Not Voter│
-  └───┬────┘ └─────┬────┘
-      │            │
-      └─────┬──────┘
-            ▼
-        ┌───────┐
-        │  End  │
-        └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input age"/]
+    B --> C{"age >= 18?"}
+    C -- Yes --> D[/"Print: Voter"/]
+    C -- No --> E[/"Print: Not Voter"/]
+    D --> F([End])
+    E --> F
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -376,13 +308,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৩৯ — শূন্য, ধনাত্মক নাকি ঋণাত্মক নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৩৯ — শূন্য, ধনাত্মক নাকি ঋণাত্মক নির্ণয়</b></summary>
 
-**Program:** Check if a Number is Zero, Positive or Negative
+### Program: Check if a Number is Zero, Positive or Negative
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `num` ভেরিয়েবল ঘোষণা কর।
@@ -392,37 +327,22 @@ int main() {
 ধাপ ৬: অন্যথায় "Zero" প্রদর্শন কর।
 ধাপ ৭: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input num │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  Yes  ┌──────────┐
-      │ num > 0? ├──────►│ Positive │
-      └────┬─────┘       └──────────┘
-           │ No
-           ▼
-      ┌──────────┐  Yes  ┌──────────┐
-      │ num < 0? ├──────►│ Negative │
-      └────┬─────┘       └──────────┘
-           │ No
-           ▼
-      ┌──────────┐
-      │   Zero   │
-      └────┬─────┘
-           ▼
-       ┌───────┐
-       │  End  │
-       └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input num"/]
+    B --> C{"num > 0?"}
+    C -- Yes --> D[/"Print: Positive"/]
+    C -- No --> E{"num < 0?"}
+    E -- Yes --> F[/"Print: Negative"/]
+    E -- No --> G[/"Print: Zero"/]
+    D --> H([End])
+    F --> H
+    G --> H
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -443,13 +363,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৪০ — শূন্য, জোড় নাকি বিজোড় নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৪০ — শূন্য, জোড় নাকি বিজোড় নির্ণয়</b></summary>
 
-**Program:** Check if a Number is Zero, Even or Odd
+### Program: Check if a Number is Zero, Even or Odd
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `num` ভেরিয়েবল ঘোষণা কর।
@@ -459,37 +382,22 @@ int main() {
 ধাপ ৬: অন্যথায় "Odd" প্রদর্শন কর।
 ধাপ ৭: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input num │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  Yes  ┌──────┐
-      │num == 0? ├──────►│ Zero │
-      └────┬─────┘       └──────┘
-           │ No
-           ▼
-      ┌────────────┐  Yes  ┌──────┐
-      │num%2 == 0? ├──────►│ Even │
-      └─────┬──────┘       └──────┘
-            │ No
-            ▼
-        ┌───────┐
-        │  Odd  │
-        └───┬───┘
-            ▼
-        ┌───────┐
-        │  End  │
-        └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input num"/]
+    B --> C{"num == 0?"}
+    C -- Yes --> D[/"Print: Zero"/]
+    C -- No --> E{"num % 2 == 0?"}
+    E -- Yes --> F[/"Print: Even"/]
+    E -- No --> G[/"Print: Odd"/]
+    D --> H([End])
+    F --> H
+    G --> H
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -510,54 +418,42 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৪১ — তিনটি সংখ্যার মধ্যে বড় সংখ্যা নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৪১ — তিনটি সংখ্যার মধ্যে বড় সংখ্যা নির্ণয়</b></summary>
 
-**Program:** Find the Largest Among Three Numbers
+### Program: Find the Largest Among Three Numbers
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `a`, `b`, `c` ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: তিনটি সংখ্যা ইনপুট নাও।
-ধাপ ৪: যদি `a > b` এবং `a > c` হয়, তবে `a` বড়।
-ধাপ ৫: যদি `b > a` এবং `b > c` হয়, তবে `b` বড়।
+ধাপ ৪: যদি `a >= b` এবং `a >= c` হয়, তবে `a` বড়।
+ধাপ ৫: যদি `b >= a` এবং `b >= c` হয়, তবে `b` বড়।
 ধাপ ৬: অন্যথায় `c` বড়।
 ধাপ ৭: ফলাফল প্রদর্শন কর।
 ধাপ ৮: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌─────────────┐
-    │ Input a,b,c │
-    └──────┬──────┘
-           ▼
-  ┌────────────────┐  Yes  ┌────────────┐
-  │a > b && a > c? ├──────►│ a is max   │
-  └───────┬────────┘       └────────────┘
-          │ No
-          ▼
-  ┌────────────────┐  Yes  ┌────────────┐
-  │b > a && b > c? ├──────►│ b is max   │
-  └───────┬────────┘       └────────────┘
-          │ No
-          ▼
-     ┌──────────┐
-     │ c is max │
-     └────┬─────┘
-          ▼
-      ┌───────┐
-      │  End  │
-      └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input a, b, c"/]
+    B --> C{"a >= b AND a >= c?"}
+    C -- Yes --> D[/"Print: a is Largest"/]
+    C -- No --> E{"b >= a AND b >= c?"}
+    E -- Yes --> F[/"Print: b is Largest"/]
+    E -- No --> G[/"Print: c is Largest"/]
+    D --> H([End])
+    F --> H
+    G --> H
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -578,54 +474,42 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৪২ — তিনটি সংখ্যার মধ্যে ছোট সংখ্যা নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৪২ — তিনটি সংখ্যার মধ্যে ছোট সংখ্যা নির্ণয়</b></summary>
 
-**Program:** Find the Smallest Among Three Numbers
+### Program: Find the Smallest Among Three Numbers
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `a`, `b`, `c` ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: তিনটি সংখ্যা ইনপুট নাও।
-ধাপ ৪: যদি `a < b` এবং `a < c` হয়, তবে `a` ছোট।
-ধাপ ৫: যদি `b < a` এবং `b < c` হয়, তবে `b` ছোট।
+ধাপ ৪: যদি `a <= b` এবং `a <= c` হয়, তবে `a` ছোট।
+ধাপ ৫: যদি `b <= a` এবং `b <= c` হয়, তবে `b` ছোট।
 ধাপ ৬: অন্যথায় `c` ছোট।
 ধাপ ৭: ফলাফল প্রদর্শন কর।
 ধাপ ৮: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌─────────────┐
-    │ Input a,b,c │
-    └──────┬──────┘
-           ▼
-  ┌────────────────┐  Yes  ┌────────────┐
-  │a < b && a < c? ├──────►│ a is min   │
-  └───────┬────────┘       └────────────┘
-          │ No
-          ▼
-  ┌────────────────┐  Yes  ┌────────────┐
-  │b < a && b < c? ├──────►│ b is min   │
-  └───────┬────────┘       └────────────┘
-          │ No
-          ▼
-     ┌──────────┐
-     │ c is min │
-     └────┬─────┘
-          ▼
-      ┌───────┐
-      │  End  │
-      └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input a, b, c"/]
+    B --> C{"a <= b AND a <= c?"}
+    C -- Yes --> D[/"Print: a is Smallest"/]
+    C -- No --> E{"b <= a AND b <= c?"}
+    E -- Yes --> F[/"Print: b is Smallest"/]
+    E -- No --> G[/"Print: c is Smallest"/]
+    D --> H([End])
+    F --> H
+    G --> H
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -646,13 +530,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৪৩ — অধিবর্ষ (Leap Year) নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৪৩ — অধিবর্ষ (Leap Year) নির্ণয়</b></summary>
 
-**Program:** Check Leap Year
+### Program: Check Leap Year
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `year` ভেরিয়েবল ঘোষণা কর।
@@ -663,42 +550,23 @@ int main() {
 ধাপ ৭: অন্যথায় অধিবর্ষ নয়।
 ধাপ ৮: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-     ┌─────────────┐
-     │ Input year  │
-     └──────┬──────┘
-            ▼
-    ┌──────────────┐  Yes  ┌───────────┐
-    │year%400 == 0?├──────►│ Leap Year │
-    └──────┬───────┘       └───────────┘
-           │ No
-           ▼
-    ┌──────────────┐  Yes  ┌───────────────┐
-    │year%100 == 0?├──────►│ Not Leap Year │
-    └──────┬───────┘       └───────────────┘
-           │ No
-           ▼
-    ┌──────────────┐  Yes  ┌───────────┐
-    │year%4 == 0?  ├──────►│ Leap Year │
-    └──────┬───────┘       └───────────┘
-           │ No
-           ▼
-   ┌───────────────┐
-   │ Not Leap Year │
-   └───────┬───────┘
-           ▼
-       ┌───────┐
-       │  End  │
-       └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input year"/]
+    B --> C{"year % 400 == 0?"}
+    C -- Yes --> D[/"Print: Leap Year"/]
+    C -- No --> E{"year % 100 == 0?"}
+    E -- Yes --> F[/"Print: Not Leap Year"/]
+    E -- No --> G{"year % 4 == 0?"}
+    G -- Yes --> D
+    G -- No --> F
+    D --> H([End])
+    F --> H
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -717,77 +585,52 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৭৭ — পরীক্ষায় প্রাপ্ত নম্বর অনুযায়ী গ্রেড নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৭৭ — পরীক্ষায় প্রাপ্ত নম্বর অনুযায়ী গ্রেড নির্ণয়</b></summary>
 
-**Program:** Determine Grade from Marks
+### Program: Determine Grade from Marks
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `marks` ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: নম্বর ইনপুট নাও।
-ধাপ ৪: যদি `marks >= 80` হয়, তবে "A+" প্রদর্শন কর।
-ধাপ ৫: যদি `marks >= 70` হয়, তবে "A" প্রদর্শন কর।
-ধাপ ৬: যদি `marks >= 60` হয়, তবে "A-" প্রদর্শন কর।
-ধাপ ৭: যদি `marks >= 50` হয়, তবে "B" প্রদর্শন কর।
-ধাপ ৮: যদি `marks >= 40` হয়, তবে "C" প্রদর্শন কর।
-ধাপ ৯: যদি `marks >= 33` হয়, তবে "D" প্রদর্শন কর।
-ধাপ ১০: অন্যথায় "F (Fail)" প্রদর্শন কর।
-ধাপ ১১: প্রোগ্রাম শেষ কর।
+ধাপ ৪: যদি `marks >= 80` → "A+"; `>= 70` → "A"; `>= 60` → "A-"; `>= 50` → "B"; `>= 40` → "C"; `>= 33` → "D"।
+ধাপ ৫: অন্যথায় "F (Fail)" প্রদর্শন কর।
+ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌─────────────┐
-    │ Input marks │
-    └──────┬──────┘
-           ▼
-     ┌───────────┐ Yes ┌────┐
-     │marks >= 80├────►│ A+ │
-     └─────┬─────┘     └────┘
-           │ No
-           ▼
-     ┌───────────┐ Yes ┌────┐
-     │marks >= 70├────►│ A  │
-     └─────┬─────┘     └────┘
-           │ No
-           ▼
-     ┌───────────┐ Yes ┌────┐
-     │marks >= 60├────►│ A- │
-     └─────┬─────┘     └────┘
-           │ No
-           ▼
-     ┌───────────┐ Yes ┌────┐
-     │marks >= 50├────►│ B  │
-     └─────┬─────┘     └────┘
-           │ No
-           ▼
-     ┌───────────┐ Yes ┌────┐
-     │marks >= 40├────►│ C  │
-     └─────┬─────┘     └────┘
-           │ No
-           ▼
-     ┌───────────┐ Yes ┌────┐
-     │marks >= 33├────►│ D  │
-     └─────┬─────┘     └────┘
-           │ No
-           ▼
-        ┌──────┐
-        │  F   │
-        └──┬───┘
-           ▼
-       ┌───────┐
-       │  End  │
-       └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input marks"/]
+    B --> C{"marks >= 80?"}
+    C -- Yes --> D[/"Print: A+"/]
+    C -- No --> E{"marks >= 70?"}
+    E -- Yes --> F[/"Print: A"/]
+    E -- No --> G{"marks >= 60?"}
+    G -- Yes --> H[/"Print: A-"/]
+    G -- No --> I{"marks >= 50?"}
+    I -- Yes --> J[/"Print: B"/]
+    I -- No --> K{"marks >= 40?"}
+    K -- Yes --> L[/"Print: C"/]
+    K -- No --> M{"marks >= 33?"}
+    M -- Yes --> N[/"Print: D"/]
+    M -- No --> O[/"Print: F"/]
+    D --> P([End])
+    F --> P
+    H --> P
+    J --> P
+    L --> P
+    N --> P
+    O --> P
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -816,19 +659,37 @@ int main() {
 }
 ```
 
----
+</details>
 
 ---
 
-# Type 3 – Loop + Summation
+## Type 3 — Loop + Summation (লুপ + যোগফল)
+
+| # | Program |
+|:-:|:--------|
+| ৪৭ | 1+2+3+...+n |
+| ৪৮ | 1+3+5+...+n (বিজোড়) |
+| ৪৯ | 2+4+6+...+n (জোড়) |
+| ৫০ | 1²+2²+3²+...+N² |
+| ৫১ | 100²+95²+90²+...+10² |
+| ৫২ | 99²+88²+77²+...+11² |
+| ৫৩ | 1000+950+900+...+≥22 |
+| ৫৪ | 1·2+2·3+3·4+...+n(n+1) |
+| ৫৫ | 1¹+2²+3³+...+Nᴺ |
+| ৫৬ | 2²+4²+8²+... (×2 step) |
+| ৫৭ | 3²+9²+27²+... (×3 step) |
+| ৫৮ | 1³+2³+3³+...+N³ |
+| ৫৯ | 1+1/2²+1/3³+...+1/nⁿ |
+| ৬১ | 1×2+2×3+...+N×(N+1) |
 
 ---
 
-## প্রশ্ন ৪৭ — 1+2+3+...+n ধারার যোগফল
+<details>
+<summary><b>প্রশ্ন ৪৭ — 1+2+3+...+n ধারার যোগফল</b></summary>
 
-**Program:** Sum of Series 1+2+3+...+n
+### Program: Sum of Series 1+2+3+...+n
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -837,34 +698,21 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=1 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └─────┬──────┘
-           │ Yes                │
-           ▼                    ▼
-    ┌─────────────┐         ┌───────┐
-    │ sum=sum+i   │         │  End  │
-    │ i=i+1       │         └───────┘
-    └──────┬──────┘
-           │
-           └──────────┐
-                      ▲
-                (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + i"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -883,13 +731,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৪৮ — 1+3+5+...+n (বিজোড় সংখ্যার যোগফল)
+<details>
+<summary><b>প্রশ্ন ৪৮ — 1+3+5+...+n (বিজোড় সংখ্যার যোগফল)</b></summary>
 
-**Program:** Sum of Odd Numbers 1+3+5+...+n
+### Program: Sum of Odd Numbers 1+3+5+...+n
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -898,31 +749,21 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=1 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └─────┬──────┘
-           │ Yes                │
-           ▼                    ▼
-    ┌─────────────┐         ┌───────┐
-    │ sum=sum+i   │         │  End  │
-    │ i=i+2       │         └───────┘
-    └──────┬──────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + i"]
+    E --> F["i = i + 2"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -941,13 +782,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৪৯ — 2+4+6+...+n (জোড় সংখ্যার যোগফল)
+<details>
+<summary><b>প্রশ্ন ৪৯ — 2+4+6+...+n (জোড় সংখ্যার যোগফল)</b></summary>
 
-**Program:** Sum of Even Numbers 2+4+6+...+n
+### Program: Sum of Even Numbers 2+4+6+...+n
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -956,31 +800,21 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=2 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └─────┬──────┘
-           │ Yes                │
-           ▼                    ▼
-    ┌─────────────┐         ┌───────┐
-    │ sum=sum+i   │         │  End  │
-    │ i=i+2       │         └───────┘
-    └──────┬──────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 2"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + i"]
+    E --> F["i = i + 2"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -999,13 +833,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫০ — 1²+2²+3²+...+N² ধারার যোগফল
+<details>
+<summary><b>প্রশ্ন ৫০ — 1²+2²+3²+...+N² ধারার যোগফল</b></summary>
 
-**Program:** Sum of Squares 1²+2²+3²+...+N²
+### Program: Sum of Squares 1²+2²+3²+...+N²
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -1014,31 +851,21 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=1 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └─────┬──────┘
-           │ Yes                │
-           ▼                    ▼
-    ┌──────────────┐        ┌───────┐
-    │ sum=sum+i*i  │        │  End  │
-    │ i=i+1        │        └───────┘
-    └──────┬───────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + i*i"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1057,13 +884,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫১ — 100²+95²+90²+...+10²
+<details>
+<summary><b>প্রশ্ন ৫১ — 100²+95²+90²+...+10²</b></summary>
 
-**Program:** Sum of Series 100²+95²+90²+...+10²
+### Program: Sum of Series 100²+95²+90²+...+10²
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -1071,30 +901,20 @@ int main() {
 ধাপ ৪: `sum` প্রদর্শন কর।
 ধাপ ৫: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-     ┌─────────────┐
-     │sum=0, i=100 │
-     └──────┬──────┘
-            ▼
-      ┌───────────┐  No   ┌────────────┐
-      │ i >= 10?  ├───────►│ Print sum │
-      └─────┬─────┘        └─────┬──────┘
-            │ Yes                 │
-            ▼                     ▼
-    ┌───────────────┐         ┌───────┐
-    │ sum=sum+i*i   │         │  End  │
-    │ i=i-5         │         └───────┘
-    └───────┬───────┘
-            └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B["sum = 0, i = 100"]
+    B --> C{"i >= 10?"}
+    C -- Yes --> D["sum = sum + i*i"]
+    D --> E["i = i - 5"]
+    E --> C
+    C -- No --> F[/"Print sum"/]
+    F --> G([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1111,15 +931,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫২ — 99²+88²+77²+66²+...+5² (Not standard)
+<details>
+<summary><b>প্রশ্ন ৫২ — 99²+88²+77²+...+11²</b></summary>
 
-**Program:** Sum of Series 99²+88²+77²+...  (decreasing by 11, down to a small value)
+### Program: Sum of Series 99²+88²+77²+...+11² (step -11)
 
-> **Note:** Pattern: starts at 99, decreases by 11 → 99, 88, 77, 66, 55, 44, 33, 22, 11. The question ends with 5², but the nearest in the pattern would be stopping before going below some threshold. We interpret the series as: **i = 99, 88, 77, ..., 11** (step -11).
-
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -1127,30 +948,20 @@ int main() {
 ধাপ ৪: `sum` প্রদর্শন কর।
 ধাপ ৫: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-     ┌────────────┐
-     │sum=0, i=99 │
-     └──────┬─────┘
-            ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i > 0?   ├───────►│ Print sum │
-      └────┬─────┘        └─────┬──────┘
-           │ Yes                │
-           ▼                    ▼
-    ┌──────────────┐        ┌───────┐
-    │ sum=sum+i*i  │        │  End  │
-    │ i=i-11       │        └───────┘
-    └──────┬───────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B["sum = 0, i = 99"]
+    B --> C{"i > 0?"}
+    C -- Yes --> D["sum = sum + i*i"]
+    D --> E["i = i - 11"]
+    E --> C
+    C -- No --> F[/"Print sum"/]
+    F --> G([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1167,13 +978,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫৩ — 1000+950+900+...+22 (Not standard ending)
+<details>
+<summary><b>প্রশ্ন ৫৩ — 1000+950+900+...+≥22</b></summary>
 
-**Program:** Sum of Series 1000+950+900+...  (decreasing by 50, down to ≥22)
+### Program: Sum of Series 1000+950+900+... (step -50, down to ≥ 22)
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -1181,30 +995,20 @@ int main() {
 ধাপ ৪: `sum` প্রদর্শন কর।
 ধাপ ৫: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-     ┌──────────────┐
-     │sum=0, i=1000 │
-     └──────┬───────┘
-            ▼
-      ┌───────────┐  No   ┌────────────┐
-      │ i >= 22?  ├───────►│ Print sum │
-      └─────┬─────┘        └─────┬──────┘
-            │ Yes                 │
-            ▼                     ▼
-    ┌──────────────┐          ┌───────┐
-    │ sum=sum+i    │          │  End  │
-    │ i=i-50       │          └───────┘
-    └──────┬───────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B["sum = 0, i = 1000"]
+    B --> C{"i >= 22?"}
+    C -- Yes --> D["sum = sum + i"]
+    D --> E["i = i - 50"]
+    E --> C
+    C -- No --> F[/"Print sum"/]
+    F --> G([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1221,13 +1025,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫৪ — 1·2 + 2·3 + 3·4 + ... + n(n+1)
+<details>
+<summary><b>প্রশ্ন ৫৪ — 1·2 + 2·3 + 3·4 + ... + n(n+1)</b></summary>
 
-**Program:** Sum of Series i×(i+1)
+### Program: Sum of Series i × (i+1)
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -1236,31 +1043,21 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=1 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └────────────┘
-           │ Yes
-           ▼
-   ┌────────────────┐
-   │sum=sum+i*(i+1) │
-   │ i=i+1          │
-   └────────┬───────┘
-            └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + i * (i+1)"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1279,46 +1076,39 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫৫ — 1¹+2²+3³+...+Nᴺ
+<details>
+<summary><b>প্রশ্ন ৫৫ — 1¹+2²+3³+...+Nᴺ</b></summary>
 
-**Program:** Sum of Series i^i
+### Program: Sum of Series iⁱ
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
-ধাপ ২: `n`, `i`, `sum` ভেরিয়েবল ঘোষণা কর।
+ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: `n` এর মান ইনপুট নাও।
 ধাপ ৪: `i=1` থেকে `n` পর্যন্ত লুপ চালাও এবং `sum = sum + pow(i, i)` কর।
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=1 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └────────────┘
-           │ Yes
-           ▼
-   ┌──────────────────┐
-   │sum=sum+pow(i, i) │
-   │ i=i+1            │
-   └────────┬─────────┘
-            └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + pow(i, i)"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1339,13 +1129,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫৬ — 2²+4²+8²+...+n² (ভিত্তি ×2 করে বৃদ্ধি)
+<details>
+<summary><b>প্রশ্ন ৫৬ — 2²+4²+8²+... (ভিত্তি ×2 করে বৃদ্ধি)</b></summary>
 
-**Program:** Sum of Squares of Powers of 2 (2²+4²+8²+...)
+### Program: Sum of Squares of Powers of 2
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -1354,31 +1147,21 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=2 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └────────────┘
-           │ Yes
-           ▼
-    ┌──────────────┐
-    │ sum=sum+i*i  │
-    │ i=i*2        │
-    └──────┬───────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 2"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + i*i"]
+    E --> F["i = i * 2"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1398,13 +1181,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫৭ — 3²+9²+81²+...+n² (ভিত্তি ×3 করে বৃদ্ধি)
+<details>
+<summary><b>প্রশ্ন ৫৭ — 3²+9²+27²+... (ভিত্তি ×3 করে বৃদ্ধি)</b></summary>
 
-**Program:** Sum of Squares of Powers of 3 (3²+9²+27²+81²+...)
+### Program: Sum of Squares of Powers of 3
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -1413,31 +1199,21 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=3 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └────────────┘
-           │ Yes
-           ▼
-    ┌──────────────┐
-    │ sum=sum+i*i  │
-    │ i=i*3        │
-    └──────┬───────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 3"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + i*i"]
+    E --> F["i = i * 3"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1457,13 +1233,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫৮ — 1³+2³+3³+...+N³ ধারার যোগফল
+<details>
+<summary><b>প্রশ্ন ৫৮ — 1³+2³+3³+...+N³ ধারার যোগফল</b></summary>
 
-**Program:** Sum of Cubes 1³+2³+3³+...+N³
+### Program: Sum of Cubes 1³+2³+3³+...+N³
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -1472,31 +1251,21 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=1 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └────────────┘
-           │ Yes
-           ▼
-   ┌───────────────┐
-   │sum=sum+i*i*i  │
-   │ i=i+1         │
-   └───────┬───────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + i*i*i"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1515,46 +1284,39 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৫৯ — 1 + 1/2² + 1/3³ + ... + 1/nⁿ
+<details>
+<summary><b>প্রশ্ন ৫৯ — 1 + 1/2² + 1/3³ + ... + 1/nⁿ</b></summary>
 
-**Program:** Sum of Series 1 + 1/2² + 1/3³ + ... + 1/nⁿ
+### Program: Sum of Series 1 + 1/2² + 1/3³ + ... + 1/nⁿ
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
-ধাপ ২: `n`, `i` এবং `sum=0.0` ভেরিয়েবল ঘোষণা কর।
+ধাপ ২: `n`, `i`, `sum=0.0` ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: `n` এর মান ইনপুট নাও।
 ধাপ ৪: `i=1` থেকে `n` পর্যন্ত লুপ চালাও এবং `sum = sum + 1/pow(i, i)` কর।
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌────────────┐
-     │ Input n    │
-     │sum=0.0,i=1 │
-     └──────┬─────┘
-            ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └────────────┘
-           │ Yes
-           ▼
-  ┌─────────────────────┐
-  │sum=sum+1/pow(i, i)  │
-  │ i=i+1               │
-  └─────────┬───────────┘
-            └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0.0, i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + 1.0 / pow(i, i)"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1575,13 +1337,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৬১ — 1×2 + 2×3 + 3×4 + ... + N×(N+1)
+<details>
+<summary><b>প্রশ্ন ৬১ — 1×2 + 2×3 + 3×4 + ... + N×(N+1)</b></summary>
 
-**Program:** Sum of Series i×(i+1)
+### Program: Sum of Series i × (i+1)
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0` ভেরিয়েবল ঘোষণা কর।
@@ -1590,31 +1355,21 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │ sum=0,i=1 │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i <= n?  ├───────►│ Print sum │
-      └────┬─────┘        └────────────┘
-           │ Yes
-           ▼
-   ┌────────────────┐
-   │sum=sum+i*(i+1) │
-   │ i=i+1          │
-   └────────┬───────┘
-            └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["sum = 0, i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["sum = sum + i * (i+1)"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print sum"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1633,58 +1388,52 @@ int main() {
 }
 ```
 
----
+</details>
 
 ---
 
-# Type 4 – Loop + Display
+## Type 4 — Loop + Display (লুপ + প্রদর্শন)
+
+| # | Program |
+|:-:|:--------|
+| ৬২ | জোড় ও বিজোড় সংখ্যা প্রদর্শন (1–100) |
+| ৬৩ | 1, 2, 3, ..., n ধারা প্রদর্শন |
+| ৬৪ | নামতা (Multiplication Table) |
+| ৭৫ | A থেকে Z প্রদর্শন |
 
 ---
 
-## প্রশ্ন ৬২ — ১ থেকে ১০০ এর মধ্যে জোড় ও বিজোড় সংখ্যা প্রদর্শন
+<details>
+<summary><b>প্রশ্ন ৬২ — ১ থেকে ১০০ এর মধ্যে জোড় ও বিজোড় সংখ্যা প্রদর্শন</b></summary>
 
-**Program:** Display Even and Odd Numbers from 1 to 100
+### Program: Display Even and Odd Numbers from 1 to 100
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `i` ভেরিয়েবল ঘোষণা কর।
-ধাপ ৩: `i=1` থেকে `100` পর্যন্ত লুপ চালাও।
-ধাপ ৪: যদি `i % 2 == 0` হয়, তবে "Even" হিসাবে প্রদর্শন কর, অন্যথায় "Odd"।
+ধাপ ৩: `i=2` থেকে `100` পর্যন্ত ২ করে বৃদ্ধি করে জোড় সংখ্যা প্রদর্শন কর।
+ধাপ ৪: `i=1` থেকে `100` পর্যন্ত ২ করে বৃদ্ধি করে বিজোড় সংখ্যা প্রদর্শন কর।
 ধাপ ৫: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-       ┌───────┐
-       │ i = 1 │
-       └───┬───┘
-           ▼
-     ┌───────────┐  No   ┌───────┐
-     │ i <= 100? ├───────►│  End  │
-     └─────┬─────┘        └───────┘
-           │ Yes
-           ▼
-     ┌───────────┐ Yes ┌────────────┐
-     │ i%2==0?   ├────►│ Print Even │
-     └─────┬─────┘     └────────────┘
-           │ No
-           ▼
-     ┌───────────┐
-     │ Print Odd │
-     └─────┬─────┘
-           │
-       ┌───┴───┐
-       │ i=i+1 │
-       └───┬───┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B["i = 2"]
+    B --> C{"i <= 100?"}
+    C -- Yes --> D[/"Print i (Even)"/]
+    D --> E["i = i + 2"]
+    E --> C
+    C -- No --> F["i = 1"]
+    F --> G{"i <= 100?"}
+    G -- Yes --> H[/"Print i (Odd)"/]
+    H --> I["i = i + 2"]
+    I --> G
+    G -- No --> J([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1706,13 +1455,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৬৩ — ১, ২, ৩, ..., n ধারা প্রদর্শন
+<details>
+<summary><b>প্রশ্ন ৬৩ — ১, ২, ৩, ..., n ধারা প্রদর্শন</b></summary>
 
-**Program:** Display Series 1, 2, 3, ..., n
+### Program: Display Series 1, 2, 3, ..., n
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i` ভেরিয়েবল ঘোষণা কর।
@@ -1720,31 +1472,20 @@ int main() {
 ধাপ ৪: `i=1` থেকে `n` পর্যন্ত লুপ চালাও এবং `i` প্রদর্শন কর।
 ধাপ ৫: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input n   │
-     │   i = 1   │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌───────┐
-      │ i <= n?  ├───────►│  End  │
-      └────┬─────┘        └───────┘
-           │ Yes
-           ▼
-      ┌──────────┐
-      │ Print i  │
-      │ i = i+1  │
-      └────┬─────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E[/"Print i"/]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1763,13 +1504,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৬৪ — যেকোনো সংখ্যার নামতা (Multiplication Table)
+<details>
+<summary><b>প্রশ্ন ৬৪ — যেকোনো সংখ্যার নামতা (Multiplication Table)</b></summary>
 
-**Program:** Print Multiplication Table
+### Program: Print Multiplication Table
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `num`, `i` ভেরিয়েবল ঘোষণা কর।
@@ -1777,31 +1521,20 @@ int main() {
 ধাপ ৪: `i=1` থেকে `10` পর্যন্ত লুপ চালাও এবং `num × i` প্রদর্শন কর।
 ধাপ ৫: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input num │
-     │   i = 1   │
-     └─────┬─────┘
-           ▼
-      ┌──────────┐  No   ┌───────┐
-      │ i <= 10? ├───────►│  End  │
-      └────┬─────┘        └───────┘
-           │ Yes
-           ▼
-   ┌────────────────┐
-   │Print num×i=res │
-   │   i = i+1      │
-   └────────┬───────┘
-            └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input num"/]
+    B --> C["i = 1"]
+    C --> D{"i <= 10?"}
+    D -- Yes --> E[/"Print num x i = result"/]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1818,43 +1551,35 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৭৫ — A হতে Z পর্যন্ত লেটার প্রদর্শন
+<details>
+<summary><b>প্রশ্ন ৭৫ — A হতে Z পর্যন্ত লেটার প্রদর্শন</b></summary>
 
-**Program:** Display Letters A to Z
+### Program: Display Letters A to Z
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `ch` ক্যারেক্টার ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: `ch='A'` থেকে `'Z'` পর্যন্ত লুপ চালাও এবং `ch` প্রদর্শন কর।
 ধাপ ৪: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-      ┌──────────┐
-      │ ch = 'A' │
-      └────┬─────┘
-           ▼
-      ┌───────────┐  No   ┌───────┐
-      │ch <= 'Z'? ├───────►│  End  │
-      └─────┬─────┘        └───────┘
-            │ Yes
-            ▼
-      ┌──────────┐
-      │ Print ch │
-      │ ch = ch+1│
-      └────┬─────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B["ch = 'A'"]
+    B --> C{"ch <= 'Z'?"}
+    C -- Yes --> D[/"Print ch"/]
+    D --> E["ch = ch + 1"]
+    E --> C
+    C -- No --> F([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1871,19 +1596,31 @@ int main() {
 }
 ```
 
----
+</details>
 
 ---
 
-# Type 5 – Loop + Logic
+## Type 5 — Loop + Logic (লুপ + লজিক)
+
+| # | Program |
+|:-:|:--------|
+| ৪৪ | ল.সা.গু (LCM) |
+| ৪৫ | গ.সা.গু (GCD/HCF) |
+| ৪৬ | মৌলিক সংখ্যা |
+| ৬০ | ফ্যাক্টরিয়াল |
+| ৭০ | ঘাত নির্ণয় (লুপ) |
+| ৭১ | ইন্টিজার উল্টো |
+| ৭৪ | ৪ ডিজিট উল্টো |
+| ৭৬ | পাওয়ার (pow ফাংশন) |
 
 ---
 
-## প্রশ্ন ৪৪ — ল.সা.গু (LCM) নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৪৪ — ল.সা.গু (LCM) নির্ণয়</b></summary>
 
-**Program:** Find LCM of Two Numbers
+### Program: Find LCM of Two Numbers
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `a`, `b`, `lcm` ভেরিয়েবল ঘোষণা কর।
@@ -1893,36 +1630,20 @@ int main() {
 ধাপ ৬: `lcm` প্রদর্শন কর।
 ধাপ ৭: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌─────────────┐
-    │ Input a, b  │
-    └──────┬──────┘
-           ▼
-    ┌─────────────────┐
-    │lcm = max(a, b)  │
-    └────────┬────────┘
-             ▼
-  ┌──────────────────────┐  No
-  │lcm%a==0 && lcm%b==0?├──────┐
-  └──────────┬───────────┘      │
-             │ Yes              ▼
-             ▼           ┌────────────┐
-     ┌─────────────┐     │ lcm=lcm+1 │
-     │ Print lcm   │     └──────┬─────┘
-     └──────┬──────┘            │
-            ▼              (back to check)
-        ┌───────┐
-        │  End  │
-        └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input a, b"/]
+    B --> C["lcm = max of a, b"]
+    C --> D{"lcm%a==0 AND lcm%b==0?"}
+    D -- Yes --> E[/"Print lcm"/]
+    D -- No --> F["lcm = lcm + 1"]
+    F --> D
+    E --> G([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -1943,13 +1664,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৪৫ — গ.সা.গু (GCD/HCF) নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৪৫ — গ.সা.গু (GCD/HCF) নির্ণয়</b></summary>
 
-**Program:** Find GCD of Two Numbers (Euclidean Algorithm)
+### Program: Find GCD of Two Numbers (Euclidean Algorithm)
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `a`, `b`, `temp` ভেরিয়েবল ঘোষণা কর।
@@ -1958,31 +1682,21 @@ int main() {
 ধাপ ৫: `a` (GCD) প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌─────────────┐
-    │ Input a, b  │
-    └──────┬──────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ b != 0?  ├───────►│ Print a   │
-      └────┬─────┘        │  (GCD)    │
-           │ Yes          └─────┬──────┘
-           ▼                    ▼
-    ┌────────────┐          ┌───────┐
-    │ temp = b   │          │  End  │
-    │ b = a % b  │          └───────┘
-    │ a = temp   │
-    └──────┬─────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input a, b"/]
+    B --> C{"b != 0?"}
+    C -- Yes --> D["temp = b"]
+    D --> E["b = a % b"]
+    E --> F["a = temp"]
+    F --> C
+    C -- No --> G[/"Print a as GCD"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2004,13 +1718,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৪৬ — মৌলিক সংখ্যা নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৪৬ — মৌলিক সংখ্যা নির্ণয়</b></summary>
 
-**Program:** Check if a Number is Prime
+### Program: Check if a Number is Prime
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `flag=0` ভেরিয়েবল ঘোষণা কর।
@@ -2019,35 +1736,26 @@ int main() {
 ধাপ ৫: যদি `flag == 0` এবং `n > 1` হয়, তবে "Prime" প্রদর্শন কর, অন্যথায় "Not Prime"।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌─────────────┐
-    │ Input n     │
-    │ flag=0, i=2 │
-    └──────┬──────┘
-           ▼
-     ┌───────────┐  No   ┌─────────────┐
-     │ i <= n/2? ├───────►│flag==0&&n>1?│
-     └─────┬─────┘        └──┬──────┬──┘
-           │ Yes          Yes│      │No
-           ▼                 ▼      ▼
-     ┌───────────┐    ┌───────┐ ┌───────────┐
-     │ n%i==0?   │    │ Prime │ │ Not Prime │
-     └──┬────┬───┘    └───┬───┘ └─────┬─────┘
-    Yes │    │No           └─────┬─────┘
-        ▼    ▼                   ▼
-  ┌────────┐┌──────┐         ┌───────┐
-  │flag=1  ││i=i+1 │         │  End  │
-  │break   │└──┬───┘         └───────┘
-  └────────┘   └──► (loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["flag = 0, i = 2"]
+    C --> D{"i <= n/2?"}
+    D -- Yes --> E{"n % i == 0?"}
+    E -- Yes --> F["flag = 1, break"]
+    E -- No --> G["i = i + 1"]
+    G --> D
+    D -- No --> H{"flag==0 AND n>1?"}
+    F --> H
+    H -- Yes --> I[/"Print: Prime"/]
+    H -- No --> J[/"Print: Not Prime"/]
+    I --> K([End])
+    J --> K
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2073,13 +1781,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৬০ — ফ্যাক্টরিয়াল নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৬০ — ফ্যাক্টরিয়াল নির্ণয়</b></summary>
 
-**Program:** Find Factorial of a Number
+### Program: Find Factorial of a Number
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `fact=1` ভেরিয়েবল ঘোষণা কর।
@@ -2088,31 +1799,21 @@ int main() {
 ধাপ ৫: `fact` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌────────────┐
-     │ Input n    │
-     │ fact=1,i=1 │
-     └──────┬─────┘
-            ▼
-      ┌──────────┐  No   ┌─────────────┐
-      │ i <= n?  ├───────►│ Print fact │
-      └────┬─────┘        └──────┬──────┘
-           │ Yes                 │
-           ▼                     ▼
-    ┌─────────────┐          ┌───────┐
-    │ fact=fact*i  │          │  End  │
-    │ i=i+1       │          └───────┘
-    └──────┬──────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C["fact = 1, i = 1"]
+    C --> D{"i <= n?"}
+    D -- Yes --> E["fact = fact * i"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print fact"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2132,13 +1833,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৭০ — কোনো সংখ্যার ঘাত নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৭০ — কোনো সংখ্যার ঘাত নির্ণয় (লুপ ব্যবহার করে)</b></summary>
 
-**Program:** Calculate Power (base^exponent) Using Loop
+### Program: Calculate Power Using Loop
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `base`, `exp`, `i`, `result=1` ভেরিয়েবল ঘোষণা কর।
@@ -2147,32 +1851,21 @@ int main() {
 ধাপ ৫: `result` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-  ┌─────────────────┐
-  │Input base, exp  │
-  │ result=1, i=1   │
-  └────────┬────────┘
-           ▼
-     ┌───────────┐  No   ┌───────────────┐
-     │ i <= exp? ├───────►│ Print result │
-     └─────┬─────┘        └───────┬───────┘
-           │ Yes                  │
-           ▼                      ▼
-  ┌────────────────┐          ┌───────┐
-  │result=result   │          │  End  │
-  │       *base    │          └───────┘
-  │ i=i+1          │
-  └────────┬───────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input base, exp"/]
+    B --> C["result = 1, i = 1"]
+    C --> D{"i <= exp?"}
+    D -- Yes --> E["result = result * base"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print result"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2192,13 +1885,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৭১ — ইন্টিজার নম্বর উল্টো করে প্রদর্শন
+<details>
+<summary><b>প্রশ্ন ৭১ — ইন্টিজার নম্বর উল্টো করে প্রদর্শন</b></summary>
 
-**Program:** Reverse an Integer Number
+### Program: Reverse an Integer Number
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `num`, `rev=0`, `rem` ভেরিয়েবল ঘোষণা কর।
@@ -2207,32 +1903,22 @@ int main() {
 ধাপ ৫: `rev` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌─────────────┐
-    │ Input num   │
-    │ rev = 0     │
-    └──────┬──────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │num != 0? ├───────►│ Print rev │
-      └────┬─────┘        └─────┬──────┘
-           │ Yes                │
-           ▼                    ▼
-   ┌────────────────┐      ┌───────┐
-   │rem = num % 10  │      │  End  │
-   │rev=rev*10+rem  │      └───────┘
-   │num = num / 10  │
-   └────────┬───────┘
-            └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input num"/]
+    B --> C["rev = 0"]
+    C --> D{"num != 0?"}
+    D -- Yes --> E["rem = num % 10"]
+    E --> F["rev = rev * 10 + rem"]
+    F --> G["num = num / 10"]
+    G --> D
+    D -- No --> H[/"Print rev"/]
+    H --> I([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2254,13 +1940,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৭৪ — ৪ ডিজিটের সংখ্যা উল্টো ক্রমে সাজানো
+<details>
+<summary><b>প্রশ্ন ৭৪ — ৪ ডিজিটের সংখ্যা উল্টো ক্রমে সাজানো</b></summary>
 
-**Program:** Reverse a 4-Digit Number
+### Program: Reverse a 4-Digit Number
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `num`, `rev=0`, `rem` ভেরিয়েবল ঘোষণা কর।
@@ -2269,32 +1958,22 @@ int main() {
 ধাপ ৫: `rev` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-  ┌─────────────────┐
-  │Input 4-digit num│
-  │ rev = 0         │
-  └────────┬────────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │num != 0? ├───────►│ Print rev │
-      └────┬─────┘        └─────┬──────┘
-           │ Yes                │
-           ▼                    ▼
-   ┌────────────────┐      ┌───────┐
-   │rem = num % 10  │      │  End  │
-   │rev=rev*10+rem  │      └───────┘
-   │num = num / 10  │
-   └────────┬───────┘
-            └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input 4-digit num"/]
+    B --> C["rev = 0"]
+    C --> D{"num != 0?"}
+    D -- Yes --> E["rem = num % 10"]
+    E --> F["rev = rev * 10 + rem"]
+    F --> G["num = num / 10"]
+    G --> D
+    D -- No --> H[/"Print rev"/]
+    H --> I([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2316,13 +1995,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৭৬ — কোনো সংখ্যার পাওয়ার নির্ণয় (pow ব্যবহার করে)
+<details>
+<summary><b>প্রশ্ন ৭৬ — কোনো সংখ্যার পাওয়ার নির্ণয় (pow ফাংশন)</b></summary>
 
-**Program:** Calculate Power Using pow() Function
+### Program: Calculate Power Using pow() Function
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `base`, `exp`, `result` ভেরিয়েবল ঘোষণা কর।
@@ -2331,31 +2013,17 @@ int main() {
 ধাপ ৫: `result` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-        ┌───────┐
-        │ Start │
-        └───┬───┘
-            ▼
-  ┌─────────────────┐
-  │Input base, exp  │
-  └────────┬────────┘
-           ▼
-  ┌─────────────────────┐
-  │result=pow(base, exp)│
-  └────────┬────────────┘
-           ▼
-  ┌─────────────────┐
-  │ Print result    │
-  └────────┬────────┘
-           ▼
-       ┌───────┐
-       │  End  │
-       └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input base, exp"/]
+    B --> C["result = pow(base, exp)"]
+    C --> D[/"Print result"/]
+    D --> E([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2374,19 +2042,27 @@ int main() {
 }
 ```
 
----
+</details>
 
 ---
 
-# Type 6 – Array
+## Type 6 — Array (অ্যারে)
+
+| # | Program |
+|:-:|:--------|
+| ৬৫ | অ্যারের যোগফল |
+| ৬৬ | অ্যারেতে সংখ্যা বিনিময় (Swap) |
+| ৬৭ | অ্যারেতে সার্চ |
+| ৬৮ | অ্যারে অদলবদল (Reverse) |
 
 ---
 
-## প্রশ্ন ৬৫ — অ্যারের সংখ্যাগুলোর যোগফল
+<details>
+<summary><b>প্রশ্ন ৬৫ — অ্যারের সংখ্যাগুলোর যোগফল</b></summary>
 
-**Program:** Sum of Array Elements
+### Program: Sum of Array Elements
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `n`, `i`, `sum=0`, `arr[]` ভেরিয়েবল ঘোষণা কর।
@@ -2395,32 +2071,22 @@ int main() {
 ধাপ ৫: `sum` প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌──────────────┐
-    │ Input n      │
-    │ Input arr[]  │
-    │ sum=0, i=0   │
-    └──────┬───────┘
-           ▼
-      ┌──────────┐  No   ┌────────────┐
-      │ i < n?   ├───────►│ Print sum │
-      └────┬─────┘        └─────┬──────┘
-           │ Yes                │
-           ▼                    ▼
-   ┌───────────────┐       ┌───────┐
-   │sum=sum+arr[i] │       │  End  │
-   │ i=i+1         │       └───────┘
-   └───────┬───────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n"/]
+    B --> C[/"Input arr elements"/]
+    C --> D["sum = 0, i = 0"]
+    D --> E{"i < n?"}
+    E -- Yes --> F["sum = sum + arr[i]"]
+    F --> G["i = i + 1"]
+    G --> E
+    E -- No --> H[/"Print sum"/]
+    H --> I([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2444,49 +2110,37 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৬৬ — অ্যারের মধ্যে দুটি সংখ্যার বিনিময় (Swap)
+<details>
+<summary><b>প্রশ্ন ৬৬ — অ্যারের মধ্যে দুটি সংখ্যার বিনিময় (Swap)</b></summary>
 
-**Program:** Swap Two Elements in an Array
+### Program: Swap Two Elements in an Array
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `arr[]`, `n`, `p`, `q`, `temp` ভেরিয়েবল ঘোষণা কর।
-ধাপ ৩: অ্যারের আকার, উপাদানসমূহ এবং swap-এর দুটি ইনডেক্স ইনপুট নাও।
+ধাপ ৩: অ্যারের আকার, উপাদানসমূহ এবং দুটি পজিশন ইনপুট নাও।
 ধাপ ৪: `temp = arr[p]`, `arr[p] = arr[q]`, `arr[q] = temp` কর।
 ধাপ ৫: অ্যারে প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-  ┌──────────────────┐
-  │ Input n, arr[]   │
-  │ Input p, q       │
-  └────────┬─────────┘
-           ▼
-  ┌──────────────────┐
-  │ temp = arr[p]    │
-  │ arr[p] = arr[q]  │
-  │ arr[q] = temp    │
-  └────────┬─────────┘
-           ▼
-  ┌──────────────────┐
-  │ Print arr[]      │
-  └────────┬─────────┘
-           ▼
-       ┌───────┐
-       │  End  │
-       └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n, arr[], p, q"/]
+    B --> C["temp = arr[p]"]
+    C --> D["arr[p] = arr[q]"]
+    D --> E["arr[q] = temp"]
+    E --> F[/"Print arr[]"/]
+    F --> G([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2517,13 +2171,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৬৭ — অ্যারেতে সংখ্যা সার্চ (Linear Search)
+<details>
+<summary><b>প্রশ্ন ৬৭ — অ্যারেতে সংখ্যা সার্চ (Linear Search)</b></summary>
 
-**Program:** Search an Element in Array (Linear Search)
+### Program: Search an Element in Array
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `arr[]`, `n`, `key`, `i`, `found=0` ভেরিয়েবল ঘোষণা কর।
@@ -2532,35 +2189,26 @@ int main() {
 ধাপ ৫: যদি `found == 0` হয়, তবে "Not Found" প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-  ┌──────────────────┐
-  │Input n, arr[],key│
-  │ found=0, i=0     │
-  └────────┬─────────┘
-           ▼
-     ┌──────────┐  No   ┌──────────────┐
-     │ i < n?   ├───────►│found==0?    │
-     └────┬─────┘        └──┬──────┬───┘
-          │ Yes          Yes│      │No
-          ▼                 ▼      ▼
-    ┌────────────┐   ┌──────────┐ ┌──────┐
-    │arr[i]==key?│   │Not Found │ │ Done │
-    └──┬─────┬──┘   └──────────┘ └──────┘
-   Yes │     │No
-       ▼     ▼
-  ┌────────┐┌──────┐
-  │found=1 ││i=i+1 │
-  │Print i │└──┬───┘
-  └────────┘   └──► (loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n, arr[], key"/]
+    B --> C["found = 0, i = 0"]
+    C --> D{"i < n?"}
+    D -- Yes --> E{"arr[i] == key?"}
+    E -- Yes --> F["found = 1"]
+    F --> G[/"Print: Found at position i"/]
+    E -- No --> H["i = i + 1"]
+    H --> D
+    D -- No --> I{"found == 0?"}
+    G --> J([End])
+    I -- Yes --> K[/"Print: Not Found"/]
+    I -- No --> J
+    K --> J
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2593,13 +2241,16 @@ int main() {
 }
 ```
 
+</details>
+
 ---
 
-## প্রশ্ন ৬৮ — অ্যারের সংখ্যাগুলো অদলবদল (Reverse Array)
+<details>
+<summary><b>প্রশ্ন ৬৮ — অ্যারের সংখ্যাগুলো অদলবদল (Reverse Array)</b></summary>
 
-**Program:** Reverse an Array
+### Program: Reverse an Array
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `arr[]`, `n`, `i`, `temp` ভেরিয়েবল ঘোষণা কর।
@@ -2608,32 +2259,21 @@ int main() {
 ধাপ ৫: অ্যারে প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-  ┌────────────────┐
-  │Input n, arr[]  │
-  │    i = 0       │
-  └────────┬───────┘
-           ▼
-     ┌───────────┐  No   ┌──────────────┐
-     │ i < n/2?  ├───────►│ Print arr[] │
-     └─────┬─────┘        └──────┬───────┘
-           │ Yes                 │
-           ▼                     ▼
-  ┌──────────────────┐       ┌───────┐
-  │swap arr[i] &     │       │  End  │
-  │    arr[n-1-i]    │       └───────┘
-  │ i=i+1            │
-  └────────┬─────────┘
-           └──► (back to loop)
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input n, arr[]"/]
+    B --> C["i = 0"]
+    C --> D{"i < n/2?"}
+    D -- Yes --> E["Swap arr[i] and arr[n-1-i]"]
+    E --> F["i = i + 1"]
+    F --> D
+    D -- No --> G[/"Print arr[]"/]
+    G --> H([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2663,19 +2303,24 @@ int main() {
 }
 ```
 
----
+</details>
 
 ---
 
-# Type 7 – Function
+## Type 7 — Function (ফাংশন)
+
+| # | Program |
+|:-:|:--------|
+| ৬৯ | স্ট্রিংয়ের দৈর্ঘ্য নির্ণয় (ফাংশন) |
 
 ---
 
-## প্রশ্ন ৬৯ — ফাংশনে স্ট্রিংয়ের দৈর্ঘ্য নির্ণয়
+<details>
+<summary><b>প্রশ্ন ৬৯ — ফাংশনে স্ট্রিংয়ের দৈর্ঘ্য নির্ণয়</b></summary>
 
-**Program:** Find String Length Using a Function
+### Program: Find String Length Using a Function
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `str[]`, `length` ভেরিয়েবল ঘোষণা কর।
@@ -2685,46 +2330,22 @@ int main() {
 ধাপ ৬: দৈর্ঘ্য প্রদর্শন কর।
 ধাপ ৭: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-    ┌──────────────┐
-    │ Input str[]  │
-    └──────┬───────┘
-           ▼
-   ┌─────────────────┐
-   │Call stringLength │
-   │    (str)         │
-   └────────┬─────────┘
-            ▼
-     ┌─────────────┐
-     │ len=0       │
-     └──────┬──────┘
-            ▼
-     ┌─────────────┐  No   ┌────────────┐
-     │str[len]!=\0?├───────►│ Return len│
-     └──────┬──────┘        └────────────┘
-            │ Yes
-            ▼
-       ┌──────────┐
-       │ len=len+1│
-       └────┬─────┘
-            └──► (loop)
-
-       ┌────────────────┐
-       │ Print length   │
-       └───────┬────────┘
-               ▼
-           ┌───────┐
-           │  End  │
-           └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input str"/]
+    B --> C["Call stringLength(str)"]
+    C --> D["len = 0"]
+    D --> E{"str[len] != null?"}
+    E -- Yes --> F["len = len + 1"]
+    F --> E
+    E -- No --> G["Return len"]
+    G --> H[/"Print length"/]
+    H --> I([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2747,52 +2368,46 @@ int main() {
 }
 ```
 
----
+</details>
 
 ---
 
-# Type 8 – Character / ASCII
+## Type 8 — Character / ASCII (ক্যারেক্টার)
+
+| # | Program |
+|:-:|:--------|
+| ৭২ | বড় হাতের অক্ষরকে ছোট হাতে রূপান্তর |
 
 ---
 
-## প্রশ্ন ৭২ — বড় হাতের অক্ষরকে ছোট হাতে রূপান্তর
+<details>
+<summary><b>প্রশ্ন ৭২ — বড় হাতের অক্ষরকে ছোট হাতে রূপান্তর</b></summary>
 
-**Program:** Convert Uppercase to Lowercase
+### Program: Convert Uppercase to Lowercase
 
-### অ্যালগরিদম
+#### অ্যালগরিদম
 
 ধাপ ১: প্রোগ্রাম শুরু কর।
 ধাপ ২: `ch` ক্যারেক্টার ভেরিয়েবল ঘোষণা কর।
 ধাপ ৩: বড় হাতের অক্ষর ইনপুট নাও।
-ধাপ ৪: `ch = ch + 32` করে ছোট হাতে রূপান্তর কর।
+ধাপ ৪: যদি `ch >= 'A'` এবং `ch <= 'Z'` হয়, তবে `ch = ch + 32` কর।
 ধাপ ৫: রূপান্তরিত অক্ষর প্রদর্শন কর।
 ধাপ ৬: প্রোগ্রাম শেষ কর।
 
-### ফ্লোচার্ট
+#### ফ্লোচার্ট
 
-```
-       ┌───────┐
-       │ Start │
-       └───┬───┘
-           ▼
-     ┌───────────┐
-     │ Input ch  │
-     └─────┬─────┘
-           ▼
-     ┌────────────┐
-     │ ch = ch+32 │
-     └──────┬─────┘
-            ▼
-     ┌────────────┐
-     │ Print ch   │
-     └──────┬─────┘
-            ▼
-        ┌───────┐
-        │  End  │
-        └───────┘
+```mermaid
+flowchart TD
+    A([Start]) --> B[/"Input ch"/]
+    B --> C{"ch >= 'A' AND ch <= 'Z'?"}
+    C -- Yes --> D["ch = ch + 32"]
+    C -- No --> E["ch unchanged"]
+    D --> F[/"Print ch"/]
+    E --> F
+    F --> G([End])
 ```
 
-### সি প্রোগ্রাম
+#### সি প্রোগ্রাম
 
 ```c
 #include <stdio.h>
@@ -2811,16 +2426,14 @@ int main() {
 }
 ```
 
----
+</details>
 
 ---
 
-<div align="center">
-
-## 📊 Quick Reference Table
+## 📊 Quick Reference
 
 | # | Program | Type | Key Construct |
-|:---:|:---|:---:|:---|
+|:-:|:--------|:----:|:-------------|
 | ৩৮ | Voter Eligibility | 2 | `if (age >= 18)` |
 | ৩৯ | Positive / Negative / Zero | 2 | `if-else if-else` |
 | ৪০ | Zero / Even / Odd | 2 | `num % 2` |
@@ -2830,19 +2443,19 @@ int main() {
 | ৪৪ | LCM | 5 | `while` loop |
 | ৪৫ | GCD | 5 | Euclidean `while` |
 | ৪৬ | Prime Check | 5 | `for` + flag |
-| ৪৭ | Sum 1+2+...+n | 3 | `for` + `sum` |
+| ৪৭ | Sum 1+2+…+n | 3 | `for` + `sum` |
 | ৪৮ | Sum of Odds | 3 | `i += 2` |
 | ৪৯ | Sum of Evens | 3 | `i += 2` |
 | ৫০ | Sum of Squares | 3 | `i * i` |
-| ৫১ | 100²+95²+...+10² | 3 | `i -= 5` |
-| ৫২ | 99²+88²+...+11² | 3 | `i -= 11` |
-| ৫৩ | 1000+950+...+≥22 | 3 | `i -= 50` |
+| ৫১ | 100²+95²+…+10² | 3 | `i -= 5` |
+| ৫২ | 99²+88²+…+11² | 3 | `i -= 11` |
+| ৫৩ | 1000+950+…+≥22 | 3 | `i -= 50` |
 | ৫৪ | i×(i+1) series | 3 | `i*(i+1)` |
-| ৫৫ | i^i series | 3 | `pow(i, i)` |
-| ৫৬ | 2²+4²+8²+... | 3 | `i *= 2` |
-| ৫৭ | 3²+9²+27²+... | 3 | `i *= 3` |
+| ৫৫ | iⁱ series | 3 | `pow(i, i)` |
+| ৫৬ | 2²+4²+8²+… | 3 | `i *= 2` |
+| ৫৭ | 3²+9²+27²+… | 3 | `i *= 3` |
 | ৫৮ | Sum of Cubes | 3 | `i*i*i` |
-| ৫৯ | 1+1/2²+1/3³+... | 3 | `1.0/pow(i,i)` |
+| ৫৯ | 1+1/2²+1/3³+… | 3 | `1.0/pow(i,i)` |
 | ৬০ | Factorial | 5 | `fact *= i` |
 | ৬১ | i×(i+1) series | 3 | `i*(i+1)` |
 | ৬২ | Even/Odd 1–100 | 4 | two `for` loops |
@@ -2851,8 +2464,8 @@ int main() {
 | ৬৫ | Array Sum | 6 | `arr[]` + `for` |
 | ৬৬ | Array Swap | 6 | `temp` swap |
 | ৬৭ | Array Search | 6 | Linear search |
-| ৬৮ | Reverse Array | 6 | two-pointer swap |
-| ৬৯ | String Length (func) | 7 | custom function |
+| ৬৮ | Reverse Array | 6 | Two-pointer swap |
+| ৬৯ | String Length (func) | 7 | Custom function |
 | ৭০ | Power (loop) | 5 | `result *= base` |
 | ৭১ | Reverse Integer | 5 | `% 10`, `/ 10` |
 | ৭২ | Upper → Lower | 8 | `ch + 32` |
@@ -2861,11 +2474,11 @@ int main() {
 | ৭৫ | A to Z | 4 | `char` loop |
 | ৭৬ | Power (pow) | 5 | `pow()` |
 | ৭৭ | Grade from Marks | 2 | `if-else if` chain |
-| ৭ৈ | Fraction Addition | 1 | cross-multiply |
+| ৭৮ | Fraction Addition | 1 | Cross-multiply |
 
 ---
 
-### 🛠️ Compilation Note
+## 🛠️ Compilation
 
 All programs use **C99 standard**. Compile with:
 
@@ -2873,9 +2486,13 @@ All programs use **C99 standard**. Compile with:
 gcc -std=c99 -lm program.c -o program
 ```
 
+> The `-lm` flag links the math library, required for programs using `math.h`.
+
 ---
 
-*Generated for Diploma / HSC / University C Programming Examination Preparation*
+<div align="center">
+
+**Made with ❤️ for C Programming Exam Preparation**
 
 </div>
 ]]>
