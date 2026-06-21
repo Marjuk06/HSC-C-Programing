@@ -1,4 +1,4 @@
-# 📘 C Programming Exam Answer Sheet
+#  C Programming Exam Answer Sheet
 
 **অ্যালগরিদম · ফ্লোচার্ট · সি প্রোগ্রাম**
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - [Program Blueprints](#-program-blueprints)
 - [Quick Reference](#-quick-reference)
