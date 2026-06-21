@@ -6,7 +6,7 @@
 [![Questions](https://img.shields.io/badge/Questions-38--78-2ea44f?style=for-the-badge)](#-quick-reference)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](#)
 
-> ডিপ্লোমা · এইচএসসি · বিশ্ববিদ্যালয় পরীক্ষার জন্য প্রস্তুতকৃত সম্পূর্ণ উত্তরমালা
+> এইচএসসি পরীক্ষার জন্য প্রস্তুতকৃত সম্পূর্ণ উত্তরমালা
 
 ---
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 🧬 Program Blueprints
+##  Program Blueprints
 
 > প্রতিটি প্রশ্ন নিচের ৮টি ব্লুপ্রিন্ট প্যাটার্নের যেকোনো একটি অনুসরণ করে।
 
@@ -113,7 +113,7 @@ Input Character → ASCII Logic → Output
 
 ---
 
-## 📊 Quick Reference
+##  Quick Reference
 
 | # | Program | Type | Key Construct |
 |:-:|:--------|:----:|:-------------|
@@ -161,11 +161,11 @@ Input Character → ASCII Logic → Output
 
 ---
 
-## 📄 Full Answers
+##  Full Answers
 
 **সম্পূর্ণ উত্তরমালা (অ্যালগরিদম + ফ্লোচার্ট + সি প্রোগ্রাম) দেখতে নিচের লিঙ্কে যান:**
 
-👉 **[C_Programming_Exam_Answers.md](C_Programming_Exam_Answers.md)**
+ **[C_Programming_Exam_Answers.md](C_Programming_Exam_Answers.md)**
 
 প্রতিটি প্রশ্নের জন্য আছে:
 - বাংলায় অ্যালগরিদম (৫–৮ ধাপ)
@@ -174,7 +174,7 @@ Input Character → ASCII Logic → Output
 
 ---
 
-## 🛠️ Compilation
+## Compilation
 
 All programs use **C99 standard**. Compile with:
 
@@ -186,4 +186,4 @@ gcc -std=c99 -lm program.c -o program
 
 ---
 
-**Made with ❤️ for C Programming Exam Preparation**
+**Made by Marjuk for C Programming Exam Preparation**
